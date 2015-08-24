@@ -34,12 +34,12 @@ public class AppTest extends TestCase {
 	
 	public void testShouldSayHello() {
 		App app = new App();
-		assertEquals("Hello", app.sayHello());
+		assertEquals(App.HELLO, app.sayHello());
 	}
 
 	public void testShouldSayHi() {
 		App app = new App();
-		assertEquals("Hi", app.sayHi());
+		assertEquals(App.HI, app.sayHi());
 	}
 	
 }
